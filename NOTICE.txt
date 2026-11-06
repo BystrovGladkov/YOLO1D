@@ -1,0 +1,13 @@
+[YOLO-1D]
+Copyright 2026 P.G. Demidov Yaroslavl State University
+
+This software (neural network architecture, data preprocessing/postprocessing pipelines, and model weights) was developed at P.G. Demidov Yaroslavl State University by:
+- Gladkov A. N. (ORCID: 0009-0007-0211-5660)
+- Bystrov L. Y. (ORCID: 0000-0002-0610-5466)
+- Kuzmin E. V. (ORCID: 0000-0003-0500-306X)
+
+State Registration of Intellectual Property (Rospatent / FIPS):
+- Computer Program (Task 1 Pipeline & Architecture): Certificate No. 
+- Computer Program (Task 2 Pipeline & Architecture): Certificate No. 
+- Computer Program (ICA Square Noise Filtration): Certificate No.
+- Computer Program (Low-frequency Periodic Interference Filtration): Certificate No.

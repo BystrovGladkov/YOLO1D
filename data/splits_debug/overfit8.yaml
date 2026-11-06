@@ -1,0 +1,15 @@
+# E1: отладочный сплит для теста на переобучение — 8 записей фолда 0 (train), train = val = test.
+# Записи: 1, 2, 3, 4, 5, 9 (синус), 38 (ФП), 72 (ЭКС).
+path: ..
+names: {0: P, 1: QRS, 2: T}
+mode: single_lead
+zones: processed/ludb/manifest.csv
+train_data: processed/ludb/signals
+train_labels: processed/ludb/labels
+train_list: splits_debug/overfit8.txt
+val_data: processed/ludb/signals
+val_labels: processed/ludb/labels
+val_list: splits_debug/overfit8.txt
+test_data: processed/ludb/signals
+test_labels: processed/ludb/labels
+test_list: splits_debug/overfit8.txt

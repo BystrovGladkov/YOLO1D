@@ -1,0 +1,158 @@
+{
+  "seed": 2026,
+  "folds": 5,
+  "val_fraction": 0.1,
+  "per_fold": [
+    {
+      "fold": 0,
+      "train": {
+        "records": 144,
+        "samples": 1713,
+        "groups": {
+          "sinus": 126,
+          "af_flutter": 11,
+          "paced": 7
+        }
+      },
+      "val": {
+        "records": 16,
+        "samples": 186,
+        "groups": {
+          "sinus": 14,
+          "af_flutter": 1,
+          "paced": 1
+        }
+      },
+      "test": {
+        "records": 40,
+        "samples": 477,
+        "groups": {
+          "sinus": 35,
+          "af_flutter": 3,
+          "paced": 2
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "train": {
+        "records": 144,
+        "samples": 1718,
+        "groups": {
+          "sinus": 126,
+          "af_flutter": 11,
+          "paced": 7
+        }
+      },
+      "val": {
+        "records": 16,
+        "samples": 188,
+        "groups": {
+          "sinus": 14,
+          "af_flutter": 1,
+          "paced": 1
+        }
+      },
+      "test": {
+        "records": 40,
+        "samples": 470,
+        "groups": {
+          "sinus": 35,
+          "af_flutter": 3,
+          "paced": 2
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train": {
+        "records": 144,
+        "samples": 1710,
+        "groups": {
+          "sinus": 126,
+          "af_flutter": 11,
+          "paced": 7
+        }
+      },
+      "val": {
+        "records": 16,
+        "samples": 192,
+        "groups": {
+          "sinus": 14,
+          "af_flutter": 1,
+          "paced": 1
+        }
+      },
+      "test": {
+        "records": 40,
+        "samples": 474,
+        "groups": {
+          "sinus": 35,
+          "af_flutter": 3,
+          "paced": 2
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train": {
+        "records": 144,
+        "samples": 1705,
+        "groups": {
+          "sinus": 126,
+          "af_flutter": 11,
+          "paced": 7
+        }
+      },
+      "val": {
+        "records": 16,
+        "samples": 192,
+        "groups": {
+          "sinus": 14,
+          "af_flutter": 1,
+          "paced": 1
+        }
+      },
+      "test": {
+        "records": 40,
+        "samples": 479,
+        "groups": {
+          "sinus": 35,
+          "af_flutter": 3,
+          "paced": 2
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train": {
+        "records": 144,
+        "samples": 1709,
+        "groups": {
+          "sinus": 126,
+          "af_flutter": 11,
+          "paced": 7
+        }
+      },
+      "val": {
+        "records": 16,
+        "samples": 191,
+        "groups": {
+          "sinus": 14,
+          "af_flutter": 1,
+          "paced": 1
+        }
+      },
+      "test": {
+        "records": 40,
+        "samples": 476,
+        "groups": {
+          "sinus": 35,
+          "af_flutter": 3,
+          "paced": 2
+        }
+      }
+    }
+  ],
+  "problems": []
+}

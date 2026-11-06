@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this architecture, processing pipelines, or weights please cite our paper."
+title: "YOLO-1D"
+license: Apache-2.0
+repository-code: "https://github.com/BystrovGladkov/YOLO1D"
+authors:
+  - family-names: "Gladkov"
+    given-names: "Artemy"
+    affiliation: "P.G. Demidov Yaroslavl State University"
+    orcid: "https://orcid.org/0009-0007-0211-5660"
+  - family-names: "Bystrov"
+    given-names: "Leonid"
+    affiliation: "P.G. Demidov Yaroslavl State University"
+    orcid: "https://orcid.org/0000-0002-0610-5466"
+  - family-names: "Kuzmin"
+    given-names: "Egor"
+    affiliation: "P.G. Demidov Yaroslavl State University"
+    orcid: "https://orcid.org/0000-0003-0500-306X"
+
+preferred-citation:
+  type: article
+  title: "Neural Network YOLO-1D for Useful Signals Detection on Eddy Current Rail Defectograms"
+  authors:
+    - family-names: "Gladkov"
+      given-names: "Artemy"
+      affiliation: "Yaroslavl State University"
+    - family-names: "Bystrov"
+      given-names: "Leonid"
+      affiliation: "Yaroslavl State University"
+    - family-names: "Kuzmin"
+      given-names: "Egor"
+      affiliation: "Yaroslavl State University"
+  journal: "Trudy ISP RAN/Proc. ISP RAS"
+  year: 2027
+  # Пока статья на рецензии, оставьте строчку status ниже, а volume/issue/doi закомментируйте:
+  notes: "RSCI. Status: Submitted"
+  # После выхода статьи раскомментируйте и заполните поля ниже:
+  # volume: 10
+  # issue: 2
+  # start: 45
+  # end: 58
+  # doi: "10.XXXX/XXXXXX"
+  # notes: "RSCI. EDN: XXXXXX"

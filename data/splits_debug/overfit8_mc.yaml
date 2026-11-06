@@ -1,0 +1,17 @@
+# E6: тест на переобучение режима MC — записи 1, 2, 3, 4, 5, 9, 38, 72 (как overfit8 E1), train = val = test.
+path: ..
+names:
+  0: P
+  1: QRS
+  2: T
+mode: multi_lead
+zones: processed/ludb_mc/leads.csv
+train_data: processed/ludb_mc/signals
+train_labels: processed/ludb_mc/labels
+train_list: splits_debug/overfit8_mc.txt
+val_data: processed/ludb_mc/signals
+val_labels: processed/ludb_mc/labels
+val_list: splits_debug/overfit8_mc.txt
+test_data: processed/ludb_mc/signals
+test_labels: processed/ludb_mc/labels
+test_list: splits_debug/overfit8_mc.txt

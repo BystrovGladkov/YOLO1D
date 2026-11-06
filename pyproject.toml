@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo_1d"
+version = "1.0.0"
+description = "Implementation of Yolo architecture for signals."
+authors = [{name = "Artemy Gladkov", email="gladkov.art76@gmail.com"}]
+dependencies=[
+    "wfdb>=4.1",  # чтение LUDB (data/download_ludb.py)
+]
+
+[project.optional-dependencies]
+hf = ["huggingface_hub>=0.20"]  # загрузка ECRv1 с Hugging Face (yolo_1d.utils.datasets.ecr.get_ecr_dataset)
+
+
+[tool.setuptools.packages.find]
+where = ["src"] 
+include = ["yolo_1d*"] 

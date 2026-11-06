@@ -1,0 +1,25 @@
+# ECRv1: сигналы .npy (int16, 15 x L), разметка "type begin end" в отсчётах.
+# Создано yolo_1d.utils.datasets.ecr.write_manifest; class_map: id класса в разметке -> номер класса сети.
+format: ecr_npy
+source: E:\rails\public_dataset\dataset
+train_data: E:\rails\public_dataset\dataset\train\data
+train_labels: E:\rails\public_dataset\dataset\train\labels
+val_data: E:\rails\public_dataset\dataset\val\data
+val_labels: E:\rails\public_dataset\dataset\val\labels
+test_data: E:\rails\public_dataset\dataset\test\data
+test_labels: E:\rails\public_dataset\dataset\test\labels
+names:
+  0: flashbutt
+  1: aluminothermic
+  2: rail end
+  3: axle counter
+  4: crossing
+  5: manual arc
+class_map:
+  1: 0
+  2: 1
+  3: 2
+  4: 3
+  5: 4
+  12: 5
+preprocess_cache: E:\git\YOLO_EKG\data\cache

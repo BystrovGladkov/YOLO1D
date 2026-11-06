@@ -1,0 +1,225 @@
+{
+  "waves": {
+    "QRS": 21861,
+    "T": 19652,
+    "P": 16797
+  },
+  "durations_ms": {
+    "QRS": {
+      "n": 21861,
+      "mean": 97.75152097342298,
+      "sd": 22.20005256580915,
+      "min": 36.0,
+      "p1": 62.0,
+      "p50": 94.0,
+      "p99": 172.0,
+      "max": 260.0
+    },
+    "T": {
+      "n": 19652,
+      "mean": 178.77518827600244,
+      "sd": 37.88839357223261,
+      "min": 44.0,
+      "p1": 92.0,
+      "p50": 180.0,
+      "p99": 272.0,
+      "max": 396.0
+    },
+    "P": {
+      "n": 16797,
+      "mean": 97.19128415788533,
+      "sd": 22.65289041834559,
+      "min": 14.0,
+      "p1": 46.0,
+      "p50": 96.0,
+      "p99": 156.0,
+      "max": 302.0
+    }
+  },
+  "issues": {
+    "missing_onset (отброшены)": 103,
+    "peak_before_onset": 19,
+    "no_peak (отброшены)": 2,
+    "unparsed (отброшены)": 1,
+    "merged_duplicates": 2,
+    "missing_offset (отброшены)": 1
+  },
+  "issue_records": {
+    "missing_onset": [
+      "7",
+      "34",
+      "95",
+      "104",
+      "111"
+    ],
+    "peak_before_onset": [
+      "7",
+      "34",
+      "111",
+      "198"
+    ],
+    "no_peak": [
+      "8"
+    ],
+    "unparsed": [
+      "8"
+    ],
+    "merged_duplicates": [
+      "116"
+    ],
+    "missing_offset": [
+      "116"
+    ]
+  },
+  "first_onset_s": {
+    "n": 2400,
+    "mean": 1.3381108333333334,
+    "sd": 0.3485531610089135,
+    "min": 0.358,
+    "p1": 0.6177400000000001,
+    "p50": 1.322,
+    "p99": 2.19,
+    "max": 2.724
+  },
+  "last_offset_s": {
+    "n": 2400,
+    "mean": 8.644801666666666,
+    "sd": 0.390128454055698,
+    "min": 6.046,
+    "p1": 7.46794,
+    "p50": 8.642,
+    "p99": 9.474079999999999,
+    "max": 9.664
+  },
+  "zone_s": {
+    "n": 2400,
+    "mean": 7.306690833333332,
+    "sd": 0.6238401192741392,
+    "min": 4.396,
+    "p1": 5.535959999999999,
+    "p50": 7.28,
+    "p99": 8.770019999999999,
+    "max": 8.834
+  },
+  "unannotated_fraction": {
+    "n": 2400,
+    "mean": 0.26933091666666664,
+    "sd": 0.06238401192741392,
+    "min": 0.11660000000000004,
+    "p1": 0.122998,
+    "p50": 0.272,
+    "p99": 0.4464039999999999,
+    "max": 0.5604
+  },
+  "records_with_lead_count_mismatch": {
+    "P": 17,
+    "QRS": 10,
+    "T": 12
+  },
+  "records_without_p_in_lead_ii": {
+    "paced": 9,
+    "af_flutter": 15
+  },
+  "rhythm_groups": {
+    "sinus": 175,
+    "paced": 10,
+    "af_flutter": 15
+  },
+  "leads_with_dropped_waves": [
+    "7.v1",
+    "7.v2",
+    "7.v3",
+    "8.v5",
+    "34.v1",
+    "34.v2",
+    "34.v3",
+    "95.ii",
+    "95.iii",
+    "95.avr",
+    "95.avf",
+    "95.v1",
+    "95.v3",
+    "95.v4",
+    "95.v5",
+    "95.v6",
+    "104.ii",
+    "104.iii",
+    "104.avr",
+    "104.avf",
+    "111.v4",
+    "111.v5",
+    "111.v6",
+    "116.v4"
+  ],
+  "leads_with_dropped_waves_outside_zone": [
+    "111.iii",
+    "111.v3"
+  ],
+  "peak_symbols": {
+    "QRS": 21965,
+    "T": 19661,
+    "P": 16797
+  },
+  "checks": [
+    {
+      "check": "Число записей",
+      "expected": "200",
+      "actual": "200",
+      "ok": true
+    },
+    {
+      "check": "Форма сигнала (отведения × отсчёты)",
+      "expected": "{(12, 5000)}",
+      "actual": "{(12, 5000)}",
+      "ok": true
+    },
+    {
+      "check": "У каждого отведения есть разметка",
+      "expected": "True",
+      "actual": "True",
+      "ok": true
+    },
+    {
+      "check": "Волн P (символов пика, допуск 0.1%)",
+      "expected": "16797",
+      "actual": "16797",
+      "ok": true
+    },
+    {
+      "check": "Волн QRS (символов пика, допуск 0.1%)",
+      "expected": "21966",
+      "actual": "21965",
+      "ok": true
+    },
+    {
+      "check": "Волн T (символов пика, допуск 0.1%)",
+      "expected": "19666",
+      "actual": "19661",
+      "ok": true
+    },
+    {
+      "check": "Волн всего (символов пика, допуск 0.1%)",
+      "expected": "58429",
+      "actual": "58423",
+      "ok": true
+    },
+    {
+      "check": "Пол Ж / М",
+      "expected": "{'F': 85, 'M': 115}",
+      "actual": "{'F': 85, 'M': 115}",
+      "ok": true
+    },
+    {
+      "check": "Возраст min–max, среднее",
+      "expected": "11–90, ≈52",
+      "actual": "11–90, 52.0",
+      "ok": true
+    },
+    {
+      "check": "Ритмы (первый в списке) = таблица README",
+      "expected": "{'Sinus rhythm': 143, 'Sinus tachycardia': 4, 'Sinus bradycardia': 25, 'Sinus arrhythmia': 8, 'Irregular sinus rhythm': 2, 'Atrial fibrillation': 15, 'Atrial flutter, typical': 3}",
+      "actual": "{'Sinus bradycardia': 25, 'Sinus rhythm': 143, 'Atrial fibrillation': 15, 'Sinus arrhythmia': 8, 'Atrial flutter, typical': 3, 'Sinus tachycardia': 4, 'Irregular sinus rhythm': 2}",
+      "ok": true
+    }
+  ]
+}

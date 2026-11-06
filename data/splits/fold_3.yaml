@@ -1,0 +1,18 @@
+# LUDB, фолд 3 из 5: сгенерировано data/make_splits.py (seed 2026).
+path: ..
+names:
+  0: P
+  1: QRS
+  2: T
+mode: single_lead
+fold: 3
+zones: processed/ludb/manifest.csv
+train_data: processed/ludb/signals
+train_labels: processed/ludb/labels
+train_list: splits/fold_3/train.txt
+val_data: processed/ludb/signals
+val_labels: processed/ludb/labels
+val_list: splits/fold_3/val.txt
+test_data: processed/ludb/signals
+test_labels: processed/ludb/labels
+test_list: splits/fold_3/test.txt

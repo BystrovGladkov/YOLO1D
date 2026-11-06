@@ -1,0 +1,18 @@
+# LUDB, режим MC (12 отведений), фолд 3: сгенерировано data/make_splits_mc.py из fold_3.yaml.
+path: ..
+names:
+  0: P
+  1: QRS
+  2: T
+mode: multi_lead
+fold: 3
+zones: processed/ludb_mc/leads.csv
+train_data: processed/ludb_mc/signals
+train_labels: processed/ludb_mc/labels
+train_list: splits/fold_3/train_mc.txt
+val_data: processed/ludb_mc/signals
+val_labels: processed/ludb_mc/labels
+val_list: splits/fold_3/val_mc.txt
+test_data: processed/ludb_mc/signals
+test_labels: processed/ludb_mc/labels
+test_list: splits/fold_3/test_mc.txt
